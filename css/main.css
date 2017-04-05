@@ -1,12 +1,11 @@
 title {
    margin: 3em;
    width: 70%;
-   font-family: "Helvetica Neue", "Yantramanav";
 }
 body {
-   font-family: "Helvetica Neue", "Yantramanav";
+   font-family: 'Raleway', sans-serif;
    margin: 60px auto;
-   width: 70%;
+   width: 80%;
    background-color: #f9f9f9
 }
 loading-overlay{
@@ -20,7 +19,7 @@ loading-overlay{
 }
 loading-progress{
   height:2px;
-  background:#33C3F0;
+  background:#e44d4d;
   position:absolute;
   width:0;
   top:0;
@@ -29,7 +28,7 @@ loading-progstat{
   display: none
 }
 nav ul, footer ul {
-    font-family:"Helvetica Neue", "Yantramanav";
+    font-family: 'Raleway', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -47,14 +46,16 @@ a:hover {
     color: #c54343
 }
 h1 {
-    font-size: 3em;
-    font-family:"Helvetica Neue", "Yantramanav";
+    font-family: 'Raleway', sans-serif;
+    Font-size: 64px;
     color: #e44d4d;
 }
 p {
+    font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: #000;
+    padding-bottom: 100px 
 }
 footer {
     border-top: 1px solid #d5d5d5;
