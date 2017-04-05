@@ -22,7 +22,8 @@ a {
     color: #e44d4d;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: blink;
+    color: #c54343
 }
 h1 {
     font-size: 3em;
