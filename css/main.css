@@ -1,15 +1,35 @@
 title {
    margin: 3em;
    width: 70%;
-   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+   font-family: "Helvetica Neue", "Yantramanav";
 }
 body {
+   font-family: "Helvetica Neue", "Yantramanav";
    margin: 60px auto;
    width: 70%;
    background-color: #f9f9f9
 }
+loading-overlay{
+  position:fixed;
+  z-index:99999;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  transition: 1s 0.4s;
+}
+loading-progress{
+  height:2px;
+  background:#33C3F0;
+  position:absolute;
+  width:0;
+  top:0;
+}
+loading-progstat{
+  display: none
+}
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:"Helvetica Neue", "Yantramanav";
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -28,7 +48,7 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:"Helvetica Neue", "Yantramanav";
     color: #e44d4d;
 }
 p {
